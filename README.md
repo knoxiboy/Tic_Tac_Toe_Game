@@ -38,7 +38,7 @@ tic_tac_toe/
   </ol>
 
   <pre><code>
-git clone https://github.com/knoxiboy/tic-tac-toe.git
+git clone https://github.com/knoxiboy/Tic_Tac_Toe_Game.git
 cd tic_tac_toe
 open index.html
   </code></pre>

@@ -4,7 +4,8 @@
   </p>
 
   <h2>Preview</h2>
-  <p><img src="screenshot.png" alt="Tic Tac Toe Screenshot" width="300"></p>
+  <p><img src="pics/Screenshot 2025-05-28 172735.png" alt="Tic Tac Toe Screenshot" width="300"></p>
+  <p><img src="pics/Screenshot 2025-05-28 172735.png" alt="Tic Tac Toe Screenshot" width="300"></p>
 
   <h2>Features</h2>
   <ul>

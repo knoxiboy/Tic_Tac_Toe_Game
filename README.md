@@ -1,61 +1,79 @@
-<h1>Tic Tac Toe Game</h1>
-  <p>
-    A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. This is a two-player game where players take turns to mark X and O on a 3×3 grid.
-  </p>
+# Tic Tac Toe Game
 
-  <h2>Preview</h2>
-  <p><img src="pics/Screenshot 2025-05-28 172735.png" alt="Tic Tac Toe Screenshot" width="400"> <img src="pics/Screenshot 2025-05-28 172817.png" alt="Tic Tac Toe Screenshot" width="400"></p>
+A simple web-based Tic Tac Toe game built using HTML, CSS, and JavaScript. This is a two-player game where players take turns to mark X and O on a 3×3 grid.
 
-  <h2>Features</h2>
-  <ul>
-    <li>Two-player turn-based gameplay</li>
-    <li>Win detection for all combinations</li>
-    <li>Draw detection</li>
-    <li>"Reset Game" and "Play Again" functionality</li>
-    <li>Responsive and clean UI</li>
-  </ul>
+## Preview
 
-  <h2>Technologies Used</h2>
-  <ul>
-    <li><strong>HTML</strong> – Structure of the game</li>
-    <li><strong>CSS</strong> – Styling the layout and elements</li>
-    <li><strong>JavaScript</strong> – Game logic and interactivity</li>
-  </ul>
+![Tic Tac Toe Screenshot](pics/Screenshot%202025-05-28%20172735.png) ![Tic Tac Toe Screenshot](pics/Screenshot%202025-05-28%20172817.png)
 
-  <h2>Project Structure</h2>
-  <pre><code>
+## Features
+
+- Two-player turn-based gameplay
+- Win detection for all combinations (rows, columns, diagonals)
+- Draw detection
+- "Reset Game" and "Play Again" functionality
+- Responsive and clean UI
+- Visual indication of winning combinations
+
+## Technologies Used
+
+- **HTML:** Structure of the game
+- **CSS:** Styling the layout and elements
+- **JavaScript:** Game logic and interactivity
+
+## Project Structure
+
+```
 tic_tac_toe/
 ├── index.html       # Main HTML file
 ├── style.css        # CSS styling
 ├── game.js          # JavaScript game logic
+├── pics/            # Images and screenshots
 └── README.md        # Project documentation
-  </code></pre>
+```
 
-  <h2>How to Run</h2>
-  <ol>
-    <li>Clone or download the repository</li>
-    <li>Open <code>index.html</code> in your browser</li>
-  </ol>
+## How to Run
 
-  <pre><code>
+1. Clone or download the repository
+2. Open `index.html` in your browser
+
+```bash
 git clone https://github.com/knoxiboy/Tic_Tac_Toe_Game.git
 cd tic_tac_toe
 open index.html
-  </code></pre>
+```
 
-  <h2>Game Rules</h2>
-  <ul>
-    <li>The game is played on a 3x3 grid</li>
-    <li>One player is X, and the other is O</li>
-    <li>Players take turns putting their marks in empty squares</li>
-    <li>The first player to get 3 of their marks in a row (vertically, horizontally, or diagonally) wins</li>
-    <li>If all 9 squares are filled and no player has won, the game ends in a draw</li>
-  </ul>
+## Game Rules
 
-  <h2>Possible Improvements</h2>
-  <ul>
-    <li>Add single-player mode with AI</li>
-    <li>Add scoreboard to track wins/draws</li>
-    <li>Add animations and sound effects</li>
-    <li>Improve mobile responsiveness</li>
-  </ul>
+- The game is played on a 3x3 grid
+- One player is X, and the other is O
+- Players take turns putting their marks in empty squares
+- The first player to get 3 of their marks in a row (vertically, horizontally, or diagonally) wins
+- If all 9 squares are filled and no player has won, the game ends in a draw
+
+## Gameplay
+
+- Players alternate turns placing their marks (X or O) on the grid
+- The first player to achieve three of their marks in a row wins
+- Winning combinations are highlighted
+- After a game ends, you can reset the board to play again
+
+## Possible Improvements
+
+- Add single-player mode with AI
+- Add scoreboard to track wins/draws
+- Add animations and sound effects
+- Improve mobile responsiveness
+- Add player name input
+- Add game statistics tracking
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature-name`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some feature'`)
+5. Push to the branch (`git push origin feature/your-feature-name`)
+6. Open a Pull Request

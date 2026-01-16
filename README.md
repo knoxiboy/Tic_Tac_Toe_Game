@@ -43,6 +43,31 @@ cd tic_tac_toe
 open index.html
 ```
 
+## Program Details
+
+The Tic Tac Toe game consists of three main files:
+
+- **index.html**: Contains the structure of the game with:
+  - A title and welcome message
+  - A 3x3 grid of clickable cells
+  - Reset and Play Again buttons
+  - A result display area that shows game outcomes
+
+- **style.css**: Provides styling for the game with:
+  - A centered layout with appropriate spacing
+  - A visually appealing color scheme (green background with contrasting elements)
+  - Circular cells for the game board
+  - Responsive design that works on different screen sizes
+  - Visual feedback for interactive elements
+
+- **game.js**: Implements the core game logic:
+  - Tracks player turns (X and O)
+  - Handles cell clicks and marks the board
+  - Checks for winning conditions (8 possible combinations)
+  - Detects draw conditions when the board is full
+  - Updates the UI based on game results
+  - Provides reset functionality to start a new game
+
 ## Game Rules
 
 - The game is played on a 3x3 grid
